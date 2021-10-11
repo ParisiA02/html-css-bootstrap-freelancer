@@ -23,3 +23,62 @@ main .jumbotron{
     /* debugging */
     background-color: purple;
 }
+
+/* styling portfolio */
+main .title_portfolio{
+    height: 150px;
+    /* debugging */
+    background-color: orange;
+}
+
+.red{
+    height: 400px;
+    /* debugging */
+    background-color: red;
+}
+.watergreen{
+    height: 400px;
+    /* debugging */
+    background-color: greenyellow;
+}
+.black{
+    height: 400px;
+    /* debugging */
+    background-color: black;
+}
+.lightblue{
+    height: 400px;
+    /* debugging */
+    background-color: lightblue;
+}
+.blue{
+    height: 400px;
+    /* debugging */
+    background-color: blue;
+}
+.beige{
+    height: 400px;
+    /* debugging */
+    background-color: beige;
+}
+
+/* styling about section */
+.about{
+    height: 600px;
+    /* debugging */
+    background-color: green;
+}
+
+.title_about{
+    height: 200px;
+    /* debugging */
+    background-color: lightgreen;
+}
+
+.text_about{
+    
+}
+
+.download_about{
+
+}
