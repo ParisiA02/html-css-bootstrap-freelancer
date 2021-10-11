@@ -64,7 +64,7 @@ main .title_portfolio{
 
 /* styling about section */
 .about{
-    height: 600px;
+    height: 900px;
     /* debugging */
     background-color: green;
 }
@@ -76,9 +76,54 @@ main .title_portfolio{
 }
 
 .text_about{
-    
+    height: 300px;
+    /* debugging */
+    background-color: lightseagreen;
 }
 
 .download_about{
+    height: 100px;
+    /* debugging */
+    background-color: greenyellow;
+}
 
+/* contact_me */
+.title_contact{
+    height: 200px;
+    border: 1px solid black;
+}
+
+.form_contact{
+    height: 600px;
+    border: 1px solid black;
+}
+
+.send_contact{
+    height: 200px;
+    border: 1px solid black;
+}
+
+/* styling footer */
+.location{
+    height: 100px;
+    background-color: grey;
+    border: 1px solid black;
+}
+
+.around_web{
+    height: 100px;
+    background-color: grey;
+    border: 1px solid black;
+}
+
+.about_freelance{
+    height: 200px;
+    background-color: grey;
+    border: 1px solid black;
+}
+
+.copyright{
+    height: 100px;
+    background-color: grey;
+    border: 1px solid black;
 }
