@@ -1,0 +1,25 @@
+/* styling header */
+header .col-12{
+    height: 100px;
+    /* debugging */
+    background-color: red;
+}
+
+/* styling jumbotron */
+main .jumbotron{
+    height: 600px;
+    /* debugging */
+    background-color: royalblue;
+}
+
+.jumbotron .jumbotron_image{
+    height: 450px;
+    /* debugging */
+    background-color: yellow;
+}
+
+.jumbotron .jumbotron_description{
+    height: 150px;
+    /* debugging */
+    background-color: purple;
+}
