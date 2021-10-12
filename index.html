@@ -11,7 +11,7 @@
 </head>
 <body>
     <header>
-        <div class="container gx-0">
+        <div class="container-fluid gx-0">
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container-fluid">
                   <a class="navbar-brand" href="#">START BOOTSTRAP</a>
@@ -31,7 +31,7 @@
     </header>
     <main>
         <!-- jumbotron -->
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col jumbotron">
                     <div class="image_container">
@@ -52,7 +52,7 @@
             </div>
         </div>
         <!-- container portfolio -->
-        <div class="container">
+        <div class="container-fluid">
             <div class="title_portfolio">
                 <div class="row">
                     <div class="col-12 title_portfolio">
@@ -104,7 +104,7 @@
             </div>
         </div>
         <!-- container about -->
-        <div class="container about">
+        <div class="container-fluid about">
             <div class="row">
                 <div class="col title_about">
                     ABOUT
@@ -138,34 +138,74 @@
         <!-- container contact_me -->
         <div class="container">
             <div class="row">
-                <div class="col-12 title_contact">
-
+                <div class="col-12">
+                    <div class="title_contact">
+                        CONTACT ME
+                        <div class="divider">
+                            <span class="left bar"></span>
+                            <i class="fas fa-star"></i>
+                            <span class="right bar"></span>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-12 form_contact">
-
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12 send_contact">
-
+                    <div class="form-group">
+                        <label for="formGroupExampleInput">Name</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput">
+                    </div>
+                    <div class="form-group">
+                        <label for="formGroupExampleInput">Email</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput">
+                    </div>
+                    <div class="form-group">
+                        <label for="formGroupExampleInput">Phone Number</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput">
+                    </div>
+                    <div class="form-group">
+                        <label for="formGroupExampleInput">Massage</label>
+                        <input type="text" class="form-control massage" id="formGroupExampleInput">
+                    </div>
+                    <button type="button" class="btn_download">Send</button>
                 </div>
             </div>
         </div>
     </main>
     <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-12 location">
+        <div class="container-fluid">
+            <div class="row footer">
+                <div class="col-12 col-md-4 ">
+                    <div class="location_title">
+                        LOCATION
+                    </div>
+                    <div class="location_text">
+                        2215 Jhon Daniel Drive Clark, MO 54243
+                    </div>
                 </div>
-                <div class="col-12 around_web">
+                <div class="col-12 col-md-4">
+                    <div class="around_web_title">
+                        AROUND THE WEB
+                    </div>
+                    <div class="around_web_text">
+                        <div class="facebook circle"><i class="fab fa-facebook-f icon"></i></div>
+                        <div class="google circle"><i class="fab fa-google-plus-g icon"></i></div>
+                        <div class="twitter circle"><i class="fab fa-twitter icon"></i></div>
+                        <div class="linkedin circle"><i class="fab fa-linkedin-in icon"></i></div>
+                    </div>
                 </div>
-                <div class="col-12 about_freelance">
+                <div class="col-12 col-md-4">
+                    <div class="about_freelance_title">
+                        ABOUT FREELANCE
+                    </div>
+                    <div class="about_freelance_text">
+                        Freelance is a free to use, open source Bootstrap theme created by <span class="green_text">Start Bootstrap</span>
+                    </div>                    
                 </div> 
             </div>
             <div class="row">
                 <div class="col-12 copyright">
+                    Copyright &copy; Your Website 2019
                 </div>
             </div>
         </div>
