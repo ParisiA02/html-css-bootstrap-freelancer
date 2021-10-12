@@ -1,28 +1,63 @@
 /* styling header */
-header .col-12{
-    height: 100px;
-    /* debugging */
-    background-color: red;
+header .navbar{
+    background-color: rgb(44, 62, 80);
 }
+
+header .navbar-expand-lg .navbar-collapse{
+    justify-content: flex-end;
+}
+
+.navbar-light .navbar-brand{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    font-size: 20px;
+    color: white;
+}
+
 
 /* styling jumbotron */
 main .jumbotron{
-    height: 600px;
     /* debugging */
-    background-color: royalblue;
+    background-color: rgb(26, 188, 156);
+}
+.image-container{
+    width: 300px;
+    margin: 60px auto 20px;
+}
+.jumbotron-title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    color: white;
+}
+.divider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+.fa-star{
+    font-size: 35px;
+    margin: 0 10px;
+    color: white;
+}
+.bar{
+    width: 80px;
+    height: 4px;
+    border-radius: 20px;
+    background-color: white;
+}
+.jumbotron-description{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: white;
 }
 
-.jumbotron .jumbotron_image{
-    height: 450px;
-    /* debugging */
-    background-color: yellow;
-}
-
-.jumbotron .jumbotron_description{
-    height: 150px;
-    /* debugging */
-    background-color: purple;
-}
 
 /* styling portfolio */
 main .title_portfolio{
