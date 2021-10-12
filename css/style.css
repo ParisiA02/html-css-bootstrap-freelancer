@@ -24,11 +24,11 @@ main .jumbotron{
     /* debugging */
     background-color: rgb(26, 188, 156);
 }
-.image-container{
+.image_container{
     width: 300px;
     margin: 60px auto 20px;
 }
-.jumbotron-title{
+.jumbotron_title{
     text-align: center;
     font-weight: bold;
     font-size: 50px;
@@ -51,7 +51,7 @@ main .jumbotron{
     border-radius: 20px;
     background-color: white;
 }
-.jumbotron-description{
+.jumbotron_description{
     font-size: 20px;
     text-align: center;
     margin-bottom: 30px;
@@ -61,40 +61,22 @@ main .jumbotron{
 
 /* styling portfolio */
 main .title_portfolio{
-    height: 150px;
-    /* debugging */
-    background-color: orange;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 35px;
+}
+.title_portfolio .bar{
+    background-color: rgb(44, 62, 80);
+}
+.title_portfolio .fa-star{
+    color: rgb(44, 62, 80);
 }
 
-.red{
-    height: 400px;
-    /* debugging */
-    background-color: red;
-}
-.watergreen{
-    height: 400px;
-    /* debugging */
-    background-color: greenyellow;
-}
-.black{
-    height: 400px;
-    /* debugging */
-    background-color: black;
-}
-.lightblue{
-    height: 400px;
-    /* debugging */
-    background-color: lightblue;
-}
-.blue{
-    height: 400px;
-    /* debugging */
-    background-color: blue;
-}
-.beige{
-    height: 400px;
-    /* debugging */
-    background-color: beige;
+.img_container img{
+    width: 100%;
+    margin: 10px 0;
+    border-radius: 10px;
 }
 
 /* styling about section */
